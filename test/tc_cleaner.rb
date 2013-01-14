@@ -14,7 +14,6 @@ class TestURLDuplicateFilter < Test::Unit::TestCase
 						"www.wellington.co.nz/home/about/users",
 						"	wellington.co.nz	"]
 		output_lines = []
-
 		input_line.each do |link|				
 			@filter.process(link) { |link| output_lines.push(link) }
 		end
