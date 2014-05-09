@@ -29,7 +29,6 @@ class URLDuplicateFilter
 end
 
 
-
 if __FILE__ == $0
 	input_fn = ARGV[0]
 	filter = URLDuplicateFilter.new
